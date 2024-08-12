@@ -1,0 +1,36 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "3983a7e837e33ca65682e6d6e928c3ba416cdeba734fb52c9486f7d8f8f396e7",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "965060871ea614dac073dc9ab4bb8b903f9560a9554fcc9ba6a0a21231181af8"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "HO_Hyperparameter.1",
+        "operator": {
+          "name": "ChangeBatchSize",
+          "typ": "train"
+        },
+        "kwargs": {
+          "batch_size": 64
+        }
+      },
+      {
+        "name": "HO_Hyperparameter.2",
+        "operator": {
+          "name": "ChangeEpochs",
+          "typ": "train"
+        },
+        "kwargs": {
+          "epochs": 10
+        }
+      }
+    ],
+    "data": []
+  }
+}

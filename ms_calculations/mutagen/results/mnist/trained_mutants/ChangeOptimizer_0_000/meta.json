@@ -1,0 +1,27 @@
+{
+  "hashes": {
+    "model": "ba9e9954fbde5e73582c4e494d9494fbb414270aaec2c8697c6915c8a8facab9",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "dff1eac2c79f315c3b087b30572e07a7bf898bdc39bd6087e8120f3feb34f65c",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "89bbe8befd0d77137592da607aec86ac4a766662ee3f9c19cd01985888d5232d"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "ChangeOptimizer",
+        "operator": {
+          "name": "ChangeOptimizer",
+          "typ": "train"
+        },
+        "kwargs": {
+          "optimizer": "SGD",
+          "extra_arg": "momentum:0"
+        }
+      }
+    ],
+    "data": []
+  }
+}

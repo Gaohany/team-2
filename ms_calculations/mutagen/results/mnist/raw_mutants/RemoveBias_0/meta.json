@@ -1,0 +1,28 @@
+{
+  "hashes": {
+    "model": "6d3a34805e4046a5fcc7565b79c907eff674ab74d6017d21940f8ad553e95f01",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "a83c2669ce00bed9263c79e5b0a44224ca8622a6bc23b260f56cb8f641357b21",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "69e3704e290e29bed5d8ab1a911c8592773b748a0312718e6d3cefe38aaecf41"
+  },
+  "mutation_history": {
+    "model": [
+      {
+        "name": "RemoveBias",
+        "operator": {
+          "name": "ChangeKeywordInAssign",
+          "typ": "model"
+        },
+        "kwargs": {
+          "member": "conv2",
+          "keyword": "bias",
+          "value": "False"
+        }
+      }
+    ],
+    "eval": [],
+    "train": [],
+    "data": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "ba9e9954fbde5e73582c4e494d9494fbb414270aaec2c8697c6915c8a8facab9",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "b1101bde3f59cc639aa7033aac6b5209724fe1b44edbe569fc85da9a9c05a639",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "a3e3f72b4a3eb1d7d5f1ae2a58331b393d8b834470f556598679f36bff1c0240"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "DecreaseBatchSize",
+        "operator": {
+          "name": "ChangeBatchSize",
+          "typ": "train"
+        },
+        "kwargs": {
+          "batch_size": 4
+        }
+      }
+    ],
+    "data": []
+  }
+}

@@ -1,0 +1,15 @@
+{"dataset":"meta_shadow","cnt_both":23.0,"cnt_train":37.0,"cnt_all":43,"ms":0.6216216216216216}
+{"dataset":"meta_medium","cnt_both":23.0,"cnt_train":37.0,"cnt_all":43,"ms":0.6216216216216216}
+{"dataset":"meta_simple","cnt_both":22.0,"cnt_train":37.0,"cnt_all":43,"ms":0.5945945945945946}
+{"dataset":"meta_strange","cnt_both":21.0,"cnt_train":37.0,"cnt_all":43,"ms":0.5675675675675675}
+{"dataset":"meta_overlay","cnt_both":21.0,"cnt_train":37.0,"cnt_all":43,"ms":0.5675675675675675}
+{"dataset":"nbc","cnt_both":19.0,"cnt_train":37.0,"cnt_all":43,"ms":0.5135135135135135}
+{"dataset":"test","cnt_both":18.0,"cnt_train":37.0,"cnt_all":43,"ms":0.4864864864864865}
+{"dataset":"meta_red_circle","cnt_both":15.0,"cnt_train":37.0,"cnt_all":43,"ms":0.40540540540540543}
+{"dataset":"meta_triangle","cnt_both":14.0,"cnt_train":37.0,"cnt_all":43,"ms":0.3783783783783784}
+{"dataset":"kmnc","cnt_both":13.0,"cnt_train":37.0,"cnt_all":43,"ms":0.35135135135135137}
+{"dataset":"nc","cnt_both":12.0,"cnt_train":37.0,"cnt_all":43,"ms":0.32432432432432434}
+{"dataset":"meta_sign","cnt_both":10.0,"cnt_train":37.0,"cnt_all":43,"ms":0.2702702702702703}
+{"dataset":"meta\nbasic","cnt_both":28.0,"cnt_train":37.0,"cnt_all":43,"ms":0.7297297297297297}
+{"dataset":"meta\nall","cnt_both":34.0,"cnt_train":37.0,"cnt_all":43,"ms":0.918918918918919}
+{"dataset":"fuzzing\nall","cnt_both":19.0,"cnt_train":37.0,"cnt_all":43,"ms":0.5135135135135135}

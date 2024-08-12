@@ -1,0 +1,28 @@
+{
+  "hashes": {
+    "model": "9425f4790d52e6339744db8a4687937a5a5b46be8dedbfabff141c66158218b8",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "f2938abc4e6286ccadf0043ae2bf9422794fbff1705e961682f90bb873abbaaa",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "47c80842b968ae9b2df0fed4af7f8e1843d84e94b56b174f68bbb63c82291f9b"
+  },
+  "mutation_history": {
+    "model": [
+      {
+        "name": "ChangeLayerSize",
+        "operator": {
+          "name": "ChangeKeywordInAssign",
+          "typ": "model"
+        },
+        "kwargs": {
+          "member": "conv1",
+          "keyword": "out_channels",
+          "value": "16"
+        }
+      }
+    ],
+    "eval": [],
+    "train": [],
+    "data": []
+  }
+}

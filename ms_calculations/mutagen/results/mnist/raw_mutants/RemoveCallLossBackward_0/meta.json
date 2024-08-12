@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "ba9e9954fbde5e73582c4e494d9494fbb414270aaec2c8697c6915c8a8facab9",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "a9e0785e459879053cf0a57464d46d4486f9d1e696d78f160a712c784557443f",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "44872b81810f912969c9ba0c65a0adda3153e5bb80e605ba5eded843757f44d5"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "RemoveCallLossBackward",
+        "operator": {
+          "name": "RemoveCall",
+          "typ": "train"
+        },
+        "kwargs": {
+          "call": "loss.backward"
+        }
+      }
+    ],
+    "data": []
+  }
+}

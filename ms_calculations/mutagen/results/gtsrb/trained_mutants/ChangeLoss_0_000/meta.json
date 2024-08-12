@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "7bdf3af02655950b8c3aa5d0ed5a7ff464ac8bd3c76fbca742669f22942abd9e",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "c470a5c2c3851d10b0bf7193c494643f2e3d7027363be8294ceeb233c0663b42"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "ChangeLoss",
+        "operator": {
+          "name": "ChangeLoss",
+          "typ": "train"
+        },
+        "kwargs": {
+          "loss": "NLLLoss"
+        }
+      }
+    ],
+    "data": []
+  }
+}

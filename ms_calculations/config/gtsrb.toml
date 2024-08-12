@@ -1,0 +1,49 @@
+# Classification for GTSRB dataset
+model = "gtsrb-lenet" # "gtsrb-new" or "gtsrb-lenet"
+network_type = "classification"
+model_profile_path = "models/gtsrb/gtsrb_lenet/classification_lenet.pickle" # Change model directory in path as well.
+centroids_save_path = "saved_parameters/init_centroids/gtsrb_lenet.pickle"
+##
+###
+####
+#####
+input_channels = 3
+input_width = 32 # for lenet5, new = 32
+input_height = 32 # for lenet5, new = 32
+
+# Dataset attributes
+
+data = "gtsrb" # gtsrb-gray
+use_enriched_gt = "enriched"  # enriched, visible, all
+data_path = "E:/datasets/gtsrb_dataset"
+mode = 'val'
+num_classes = 43
+num_workers = 0
+
+# Mean and Std of Images for datasets 
+norm_mean_gtsrb = [0.33370, 0.30640, 0.3171]
+norm_std_gtsrb = [0.26720, 0.25640, 0.26290]
+
+norm_mean_gtsrb_gray = [0.5317]
+norm_std_gtsrb_gray = [0.3174]
+
+pretrained_backbone = true
+
+# for fuzzying
+normalize_data = false # TO DO: prob while true.. bt we use normalised data...
+batch_size = 16  # 6315 (various batch size doesnt support)
+num_mutants = 20
+max_iterations = 10
+random = 0
+seed_selection = "equal_samples" # prob
+fuzz_criteria = "kmnc" # nc, kmnc, nbc, lscd
+fuzz_entire_test_set = false
+init_seed_selection = "true_classified" # 'true_classified' & 'high_prob'
+
+mutation_criteria = "transformations"
+random_severity = false
+
+[detection_model]
+	model = 'gtsrb'
+	dataset = 'gtsrb'
+	image_set = 'gtsrb'  # gtsrb_gray

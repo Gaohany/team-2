@@ -1,0 +1,27 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "f2938abc4e6286ccadf0043ae2bf9422794fbff1705e961682f90bb873abbaaa",
+    "data": "a0a7e471d3b7f8b07efa6545ba55fae2c51785d9702a80f252ff889f41da9ecc",
+    "full": "d3e6ae48ed614d12115fc3fccd32d829bf802c2c00f266a6f1b76622a5a13833"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [],
+    "data": [
+      {
+        "name": "ChangeLabels",
+        "operator": {
+          "name": "change_labels",
+          "typ": "data"
+        },
+        "kwargs": {
+          "percentage": 0.5,
+          "which_label": 0
+        }
+      }
+    ]
+  }
+}

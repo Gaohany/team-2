@@ -1,0 +1,16 @@
+{"sut_name":"AAA_Original","dataset":"test","avg":41.60488377061001}
+{"sut_name":"AAA_Original","dataset":"nc","avg":109.83093102033749}
+{"sut_name":"AAA_Original","dataset":"nbc","avg":112.5134883259618}
+{"sut_name":"AAA_Original","dataset":"meta_triangle","avg":17.340930140295693}
+{"sut_name":"AAA_Original","dataset":"meta_strange","avg":64.42162766567496}
+{"sut_name":"AAA_Original","dataset":"meta_simple","avg":48.697441988213114}
+{"sut_name":"AAA_Original","dataset":"meta_sign","avg":1.4939534386923148}
+{"sut_name":"AAA_Original","dataset":"meta_shadow","avg":54.396744439768234}
+{"sut_name":"AAA_Original","dataset":"meta_red_circle","avg":34.96860433179279}
+{"sut_name":"AAA_Original","dataset":"meta_overlay","avg":83.74395326126454}
+{"sut_name":"AAA_Original","dataset":"meta_medium","avg":61.51348837031875}
+{"sut_name":"AAA_Original","dataset":"meta_blue_circle","avg":10.064650956974473}
+{"sut_name":"AAA_Original","dataset":"kmnc","avg":109.89139592370321}
+{"sut_name":"AAA_Original","dataset":"meta","avg":60.21279073315998}
+{"sut_name":"AAA_Original","dataset":"fuzzing","avg":112.04093037095181}
+{"sut_name":"AAA_Original","dataset":"meta\nbasic","avg":59.9539531441622}

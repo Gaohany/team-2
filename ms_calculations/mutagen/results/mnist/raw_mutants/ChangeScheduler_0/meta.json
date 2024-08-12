@@ -1,0 +1,27 @@
+{
+  "hashes": {
+    "model": "ba9e9954fbde5e73582c4e494d9494fbb414270aaec2c8697c6915c8a8facab9",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "1cd28a63bfe2d7e5f8f280d8a35619fc00084fb950abe004ad9dc091a01d4be6",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "35bc07d3d9773bfe92ad7e4523308b49e239981df60a4a5be2465408a7b8c31c"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "ChangeScheduler",
+        "operator": {
+          "name": "ChangeScheduler",
+          "typ": "train"
+        },
+        "kwargs": {
+          "scheduler": "ConstantLR",
+          "extra_arg": "factor:0.1|total_iters:10"
+        }
+      }
+    ],
+    "data": []
+  }
+}

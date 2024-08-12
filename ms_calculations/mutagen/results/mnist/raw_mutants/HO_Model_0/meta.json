@@ -1,0 +1,37 @@
+{
+  "hashes": {
+    "model": "c34fcde8adc8a3996da1c32c714dc57c41e6b87310413352f0b6c794e6c3c506",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "a83c2669ce00bed9263c79e5b0a44224ca8622a6bc23b260f56cb8f641357b21",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "1827c26be7dba3c7d3d6396b79d24b3412de7a10738e478fb63320123b1e9e14"
+  },
+  "mutation_history": {
+    "model": [
+      {
+        "name": "HO_Model.1",
+        "operator": {
+          "name": "ChangeActivation",
+          "typ": "model"
+        },
+        "kwargs": {
+          "member": "ac2",
+          "activation": "Tanh"
+        }
+      },
+      {
+        "name": "HO_Model.2",
+        "operator": {
+          "name": "RemoveBatchNorm",
+          "typ": "model"
+        },
+        "kwargs": {
+          "member": "bn2"
+        }
+      }
+    ],
+    "eval": [],
+    "train": [],
+    "data": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "f2938abc4e6286ccadf0043ae2bf9422794fbff1705e961682f90bb873abbaaa",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "1fef52b4679702b8bc9044c29c004ca3940251a783bc3019a78a4322eeba39a2"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [],
+    "data": []
+  }
+}

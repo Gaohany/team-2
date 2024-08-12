@@ -1,0 +1,11 @@
+{"dataset":"kmnc","cnt_all":43,"cnt_both_gt":13.0,"cnt_train_gt":38.0,"ms_gt":0.34210526315789475,"cnt_both_rel":2.0,"cnt_train_rel":38.0,"ms_rel":0.05263157894736842}
+{"dataset":"meta_overlay","cnt_all":43,"cnt_both_gt":25.0,"cnt_train_gt":38.0,"ms_gt":0.6578947368421053,"cnt_both_rel":22.0,"cnt_train_rel":38.0,"ms_rel":0.5789473684210527}
+{"dataset":"meta_shadow","cnt_all":43,"cnt_both_gt":21.0,"cnt_train_gt":38.0,"ms_gt":0.5526315789473685,"cnt_both_rel":20.0,"cnt_train_rel":38.0,"ms_rel":0.5263157894736842}
+{"dataset":"meta_simple","cnt_all":43,"cnt_both_gt":18.0,"cnt_train_gt":38.0,"ms_gt":0.47368421052631576,"cnt_both_rel":14.0,"cnt_train_rel":38.0,"ms_rel":0.3684210526315789}
+{"dataset":"meta_strange","cnt_all":43,"cnt_both_gt":18.0,"cnt_train_gt":38.0,"ms_gt":0.47368421052631576,"cnt_both_rel":16.0,"cnt_train_rel":38.0,"ms_rel":0.42105263157894735}
+{"dataset":"nbc","cnt_all":43,"cnt_both_gt":15.0,"cnt_train_gt":38.0,"ms_gt":0.39473684210526316,"cnt_both_rel":7.0,"cnt_train_rel":38.0,"ms_rel":0.18421052631578946}
+{"dataset":"nc","cnt_all":43,"cnt_both_gt":11.0,"cnt_train_gt":38.0,"ms_gt":0.2894736842105263,"cnt_both_rel":2.0,"cnt_train_rel":38.0,"ms_rel":0.05263157894736842}
+{"dataset":"test","cnt_all":43,"cnt_both_gt":18.0,"cnt_train_gt":38.0,"ms_gt":0.47368421052631576,"cnt_both_rel":18.0,"cnt_train_rel":38.0,"ms_rel":0.47368421052631576}
+{"dataset":"valid","cnt_all":43,"cnt_both_gt":13.0,"cnt_train_gt":38.0,"ms_gt":0.34210526315789475,"cnt_both_rel":13.0,"cnt_train_rel":38.0,"ms_rel":0.34210526315789475}
+{"dataset_type":"fuzzing","cnt_all":43,"cnt_both_gt":15.0,"cnt_train_gt":38.0,"ms_gt":0.39473684210526316,"cnt_both_rel":7.0,"cnt_train_rel":38.0,"ms_rel":0.18421052631578946}
+{"dataset_type":"meta","cnt_all":43,"cnt_both_gt":27.0,"cnt_train_gt":38.0,"ms_gt":0.7105263157894737,"cnt_both_rel":26.0,"cnt_train_rel":38.0,"ms_rel":0.6842105263157895}

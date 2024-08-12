@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "7961d45ea605168cc319390447a562445c56a8e4017287049a181664948b3dab",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "2ef1cfa6623d0c6587a1dcf5ebb80795a0394540989a38fd75649dcb7b93e418"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "IncreaseEpochs",
+        "operator": {
+          "name": "ChangeEpochs",
+          "typ": "train"
+        },
+        "kwargs": {
+          "epochs": 50
+        }
+      }
+    ],
+    "data": []
+  }
+}

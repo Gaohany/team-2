@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "f2938abc4e6286ccadf0043ae2bf9422794fbff1705e961682f90bb873abbaaa",
+    "data": "78767963052bfb84b397f4dc4c58e2035309464d348714006439d57fffa4472e",
+    "full": "ab0b5f201f733ff452dddba525a37b51b5e9db7688742c0f240ef71e9f4fdd47"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [],
+    "data": [
+      {
+        "name": "MakeClassesOverlap",
+        "operator": {
+          "name": "make_classes_overlap",
+          "typ": "data"
+        },
+        "kwargs": {
+          "percentage": 0.5
+        }
+      }
+    ]
+  }
+}

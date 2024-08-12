@@ -1,0 +1,27 @@
+{
+  "hashes": {
+    "model": "a8dc29c851eb60f2a80a881cc3122a6a3099b0d3716e241351ac8cabb4d98f7c",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "f2938abc4e6286ccadf0043ae2bf9422794fbff1705e961682f90bb873abbaaa",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "426a2848929b360e6b01264318f9f5c2ea0a3db5a50c7004e5a81a46dc4e8d4d"
+  },
+  "mutation_history": {
+    "model": [
+      {
+        "name": "ChangeActivation",
+        "operator": {
+          "name": "ChangeActivation",
+          "typ": "model"
+        },
+        "kwargs": {
+          "member": "ac1",
+          "activation": "Identity"
+        }
+      }
+    ],
+    "eval": [],
+    "train": [],
+    "data": []
+  }
+}

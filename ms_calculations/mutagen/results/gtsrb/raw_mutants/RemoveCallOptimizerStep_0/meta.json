@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "68bbf26883db7a3e9871dd14f70b7d4522d6563aafdcc0f91ce6bffa045adb17",
+    "data": "1f4609ac47a481b4fb4f52bdf8f58e1abc25281b69f5cc74ab99d1836f928f87",
+    "full": "89b7873b5d50737882f5cc4fbeeb8dc346f2c894135d9f82544e4619e831168a"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "RemoveCallOptimizerStep",
+        "operator": {
+          "name": "RemoveCall",
+          "typ": "train"
+        },
+        "kwargs": {
+          "call": "optimizer.step"
+        }
+      }
+    ],
+    "data": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "__version_entry__": [
+        {
+            "__Tool__": "",
+            "__Version__": "v1",
+            "__Time__": "2024-06-24 17:42:42"
+        }
+    ],
+    "__gt_labels__": [
+        {
+            "org_pred_class": 6,
+            "org_pred_classname": 6
+        }
+    ],
+    "__transform_labels__": [
+        {
+            "__class_id__": [
+                6
+            ],
+            "__class_name__": [
+                6
+            ]
+        }
+    ],
+    "__original_prediction__": [
+        {
+            "org_pred_class": 6,
+            "org_pred_classname": 6,
+            "org_pred_prob": 1.0
+        }
+    ],
+    "__current_predictions__": [
+        {
+            "op_class": 6,
+            "op_classname": 6,
+            "op_prob": 1.0,
+            "metamorphic_relation": "Passed"
+        }
+    ],
+    "__image_quality_metrics__": [
+        {
+            "org_image": "/Users/omeryasar/Desktop/Praktikum/mt-framework/examples/mnist/data/MNIST_Complete/MNIST_Images/MNIST/Final_Test/Images/7042_6.ppm",
+            "SSIM": 0.98,
+            "MSE": 0.0,
+            "L0_norm": 0,
+            "L2_norm": 4.21,
+            "Linf_norm": 4.205357142857143,
+            "transformations": "image_brightness_transform"
+        }
+    ]
+}

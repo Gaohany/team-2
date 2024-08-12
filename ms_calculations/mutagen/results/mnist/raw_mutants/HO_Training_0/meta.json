@@ -1,0 +1,37 @@
+{
+  "hashes": {
+    "model": "ba9e9954fbde5e73582c4e494d9494fbb414270aaec2c8697c6915c8a8facab9",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "eb66e70a8192a2f9319f74f115400306706200fb18852e15a85c68b5ea0cdac5",
+    "data": "41a81c3a38df519ea53123fe7279269ab75020ce7a07a9f1876bd82f4c68bcac",
+    "full": "e662f08de3622a32513d42798165991923f33dd005f2d34a5777e0691d7d6c52"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [
+      {
+        "name": "HO_Training.1",
+        "operator": {
+          "name": "ChangeLoss",
+          "typ": "train"
+        },
+        "kwargs": {
+          "loss": "NLLLoss"
+        }
+      },
+      {
+        "name": "HO_Training.2",
+        "operator": {
+          "name": "ChangeOptimizer",
+          "typ": "train"
+        },
+        "kwargs": {
+          "optimizer": "SGD",
+          "extra_arg": "momentum:0"
+        }
+      }
+    ],
+    "data": []
+  }
+}

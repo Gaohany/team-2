@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "model": "ba9e9954fbde5e73582c4e494d9494fbb414270aaec2c8697c6915c8a8facab9",
+    "eval": "ea8a317051fdfd0eaf686df66ca1d1e01615d715112bfcaa39b2c5fd2bb310c4",
+    "train": "a83c2669ce00bed9263c79e5b0a44224ca8622a6bc23b260f56cb8f641357b21",
+    "data": "af914e78848c1b08727ab1aea78d4a4e9d47cb7007012a9aed5156a1eaf1603b",
+    "full": "7f50f8a5db3ca946195fadc2bf33dc23326e9387a2264a4fb154b1dfc3b035e0"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [],
+    "data": [
+      {
+        "name": "RemoveData",
+        "operator": {
+          "name": "remove_data",
+          "typ": "data"
+        },
+        "kwargs": {
+          "to_remove": 2000
+        }
+      }
+    ]
+  }
+}

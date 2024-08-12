@@ -1,0 +1,28 @@
+{
+  "hashes": {
+    "model": "2dc44f2e0af8fd8b83e880f68f61751d595b76416aef62455e0474a6eec4f84a",
+    "eval": "ac7807117232b19f0b693c3b34ad2a238079819035234c5a9a21daf9d8c8603d",
+    "train": "f2938abc4e6286ccadf0043ae2bf9422794fbff1705e961682f90bb873abbaaa",
+    "data": "381f1e0693aae16d262ac43ce0c76f5b8617a93b0ff11161ccae26a23ceba094",
+    "full": "19e0ee4ca3ad183931652637d6d4eee8c192d61f34f4d618ba873a1155a9fe55"
+  },
+  "mutation_history": {
+    "model": [],
+    "eval": [],
+    "train": [],
+    "data": [
+      {
+        "name": "AddTrainingNoise",
+        "operator": {
+          "name": "add_noise",
+          "typ": "data"
+        },
+        "kwargs": {
+          "percentage": 0.5,
+          "mean": 0.0,
+          "std_percentage": 0.3
+        }
+      }
+    ]
+  }
+}

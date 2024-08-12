@@ -1,0 +1,21 @@
+beautifulsoup4==4.11.1
+black==23.11.0
+easydict==1.10
+kornia~=0.6.9
+matplotlib==3.6.2
+numpy==1.24.0
+Pillow==9.3.0
+pyflann @ git+https://github.com/cynthia/pyflann3@0790f57a7ce97e558b19747562c4cadf61692e24
+PyYAML==6.0
+scipy==1.9.3
+toml==0.10.2
+tqdm==4.64.1
+torch==1.13.1
+torchvision==0.14.1
+torch_intermediate_layer_getter==0.1.post1
+scikit-learn~=1.2.0
+scikit-image~=0.19.3
+opencv-python~=4.6.0.66
+Wand~=0.6.10
+inquirer==3.1.3
+umap-learn==0.5.5

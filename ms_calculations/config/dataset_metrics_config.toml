@@ -1,0 +1,77 @@
+# Paths to store centroids / other parameters
+centroids_save_path = "saved_parameters/init_centroids/mnist_lenet5.pkl"
+log_filepath = "metrics/mnist_lenet5.json"
+feature_vectors_dir = ""
+
+# Selection of data for dataset metrics calculations
+type = "org"  # org / crashes / adversarial
+mode = "train" # train / val / test (when type is org)
+experiment_path = ["/data/vivek/experiment_data/mnist_1_nc/"] # when type is crashes... can be multiple experiment_paths
+
+# Parameters for Boundary Conditioning
+theta1 = 0.0
+theta2 = 0.5
+
+# Metrics and their configuration
+calculate_lscd = true
+lscd_radius_type = "base"  # base / automatic
+metrics_calculated = false
+
+calculate_equivalent_partitioning = false
+
+calculate_boundary_conditioning = false
+
+calculate_annd = false
+
+#functional range and class means calculation parameters
+collect_all_feature_vectors = true
+calculate_functional_range = false
+
+
+calculate_ground_truth_label_means = false
+
+#Please include here the "vectors" directory path, so that all Gini Index results could be calculated simultaneously with the given data set (being GTSRB or SVHN)
+
+modes = ["all", "train"]
+
+#for comparing the explained variance ratio of two PCA models fit with different datasets so that which one will be used could be determined
+measured_dimensionalities = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43]
+compare_pca_explained_variance = false
+
+#archived programs
+calculate_gini_index_with_pca_without_histogram = false
+calculate_kde = false
+
+boundary_theta1 = 0.0
+boundary_theta2 = 0.5
+
+calculate_voxelization = false
+voxelisation_bin_counts = [4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 80, 100]
+voxelisation_pca_dims = [3, 4]
+voxelisation_hypercube_min = -300
+voxelisation_hypercube_max = 300
+voxelisation_bin_metrics = [
+    "pred_prob_variance",
+    "pred_prob_variance_of_variance",
+]
+
+#Gini Index based metric config parameters
+[gini_index]
+    all_points_approach = false
+    class_based_approach = false
+    in_batches = false
+    in_batches_training_data = false
+
+    # 4
+    number_bins = [1,2,3,4,5]
+    number_dimensionality = 3     
+    dimensionality_method = "pca"   #"umap"
+
+#visualizing Gini Index and confidence values
+[visualization]
+    gini_index = false 
+    gini_index_tabloid = false 
+    confidence_values = false
+
+voxelisation_compute_bin_metrics = true
+voxelisation_reuse_pca_transform = false
